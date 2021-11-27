@@ -1,0 +1,21 @@
+body{
+	background: #dff9fb;
+}
+#terms{
+	text-align: justify;
+	background-color: #00FFF0;
+}
+.btn a{
+	display: grid;
+	text-decoration: none;
+	padding: 40px;
+	letter-spacing: 5px;
+	font-weight: 500px;
+	background: #9365ff;
+	color: #2c3e50;
+	font-family: "Arial Black", sans-serif;
+}
+a:hover{
+	color: #e74c3c;
+	transition: 0.9s;
+}

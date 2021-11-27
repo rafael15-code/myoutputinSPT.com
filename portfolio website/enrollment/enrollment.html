@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Enrollment Form Registration</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div id="enrollment">
+		<form class="form" name="form1" action="#" onsubmit="required()">
+			<div class="head">
+				<img src="logo.PNG" alt="logo of OLSHCO">
+				<h1>Our Lady of the Sacred Hearth College</h1>
+				<h2>OFFICE OF REGISTRAR</h2>
+				<h3>Guimba, Nueva Ecija</h3>
+				<h4>Tel.No: (044) 958 2553</h4>
+				<p class="line"></p>
+			</div>
+
+			<div class="body">
+			<h2>ENROLLMENT FORM</h2>
+			<label>
+				<p><input type="checkbox">1st<input type="checkbox">2nd Semester, A.Y. 20 <input type="number" value="21" size="2" class="ay"> 20 <input type="number" size="2" value="22" class="ay"> </p>
+				<h3>I. PERSONAL INFORMATION</h3>
+
+				<p>NAME: <input type="text" placeholder="Family Name" size="30" class="name" name="textbox1"> <input type="text" placeholder="First Name" size="40" name="textbox2"> <input type="text" placeholder="Middle Name" size="30" name="textbox3"></p>
+
+				<p> GENDER: <select class="gender">
+        				   <option selected disabled>Select Gender</option>
+        				   <option>Male</option>
+        				   <option>Female</option>
+   						   </select>
+   					<a class="birthday">BIRTHDAY: <input type="date"></a>
+   					<a class="age">AGE: <input type="number" value="18" size="2" class = "aged"></a></p>
+
+   			<p> BIRTHPLACE: <input type="text" placeholder="Town/City, Province/Country" class="birthplace" name="textbox4">
+				<a class="status">STATUS: <select>
+        				   <option selected disabled>Select Status</option>
+        				   <option>Single</option>
+        				   <option>Married</option>
+        				    <option>Separate</option>
+        				   <option>Widow</option>
+   						   </select></a></p>
+
+   				<p> ADDRESS: <input type="text" placeholder="Barangay/Bario/Street, Town/City, Province/Country" class="address" name="textbox5"></p>
+
+   				<p> COURSE: <select class="course">
+        				   <option selected disabled>Select Course</option>
+        				   <option>Bachelor in Education</option>
+        				   <option>Bachelor of Science in Secondary Education</option>
+        				   <option>Bachelor of Science in Hotel Management</option>
+        				   <option>Bachelor of Science in Information Technology</option>
+        				   <option>Bachelor of Science in Office Administrator</option>
+        				   <option>Bachelor of Science in Criminology</option>
+   						   </select>
+   				 <a class="major">MAJOR: <select>
+   				    	   <option selected disabled>Select Major</option>
+        				   <option>English</option>
+        				   <option>Filipino</option>
+        				   <option>Mathematics</option>
+        				   <option>Values Education</option>
+   				    	   </select><a/></p>
+
+   				<p> CITIZENSHIP: <select class="citizen">
+   								 <option selected disabled>Select Citizen...</option>
+   								 <option>Filipino</option>
+   								 <option>Foreigner</option>
+   								 </select>
+   				<a class="religion">RELIGION: <select >
+   							  <option selected disabled>Select Sect....</option>
+   							  <option>Roman Chatolic</option>
+   							  <option>Iglesia ni Cristo</option>
+   							  <option>Methodist</option>
+   							  <option>Protestant</option>
+   							  </select></a></p>
+
+   				<label> FATHER: <input type="text" placeholder="Name of Father" class="father" name="textbox6">
+   				<a class="occupation">OCCUPATION: <input type="text" placeholder="Occupation" name="textbox7"></a></p>
+   				<p> CONTACT NO.:
+				<input type="text" placeholder="Telephone/Cellphone" class="contact" name="textbox8"></p>
+   				<p> MOTHER:
+				<input type="text" placeholder="Name of Mother" class="mother" name="textbox9">
+   				<a class="occupation">OCCUPATION: <input type="text" placeholder="Occupation" name="textbox10"></a></p>
+   				<p> CONTACT NO.: 
+				<input type="text" placeholder="Telephone/Cellphone" class="contact" name="textbox11"></p>
+
+   				<p> GUARDIAN: 
+				<input type="text" placeholder="Name of Guadian" class="guardian" name="textbox12">
+   				<a class="relationship">RELATIONSHIP: <select>
+   						<option selected disabled>Select Relation...</option>
+   								  <option>Father</option>
+   								  <option>Mother</option>
+   								  <option>Uncle</option>
+   								  <option>Untie</option>
+   								  <option>Brother</option>
+   								  <option>Sister</option>
+   								  </select></a></p>
+   				<p> CONTACT NO.: 
+				<input type="text" placeholder="Telephone/Cellphone" class="contact" name="textbox13">
+   				<a class="occupation1">	OCCUPATION: <input type="text" placeholder="Occupation"></a></p>
+
+   				<p> ADDRESS:
+				<input type="text" placeholder="Barangay/Bario/Street, Town/City, Province/Country" class="add" name="textbox14" ></p>
+
+   				<h3>II. EDUCATIONAL BACKGROUND</h3>	
+
+   				<p> PRIMARY: <input type="text" placeholder="Primary School" class="primary" name="textbox15">
+   				<a class="year1">	YEAR: <input type="text" placeholder="Inclusive Year" name="textbox16"></a></p>
+   				<p> ADDRESS: <input type="text" placeholder="Barangay/Bario/Street, Town/City, Province/Country" class="add1" name="textbox17"></p>
+
+   				<p> SECONDARY: <input type="text" placeholder="Secondary School" class="secondary" name="textbox18">
+   				<a class="year2">	YEAR: <input type="text" placeholder="Inclusive Year" name="textbox19"></a></p>
+   				<p> ADDRESS: <input type="text" placeholder="Barangay/Bario/Street, Town/City, Province/Country" class="add1" name="textbox20"></p>
+
+   				<p> RECENT SCHOOL: <input type="text" placeholder="Last School Attended" class="recent" name="textbox21">
+   				<a class="year3">	YEAR: <input type="text" placeholder="Inclusive Year" name="textbox22"><a></p>
+   				<p> ADDRESS: <input type="text" placeholder="Barangay/Bario/Street, Town/City, Province/Country" class="add1" name="textbox23"></p>
+
+
+ 				<div class="last">
+				<h3>III. ASSESSMENT</h3>
+				<p>(Please see the attached document)</p>
+				<input type="submit" name="submit" value="Submit" />
+	<div class="btn">
+	<button><a href="C:\Users\user\OneDrive\Desktop\portfolio website\index.html">Home</a></button>
+	</div>
+			</div>
+				</label>
+			</div>
+	
+		</form>
+	</div>
+	<script src="enrollment.js"></script>
+<div style="text-align: right;position: fixed;z-index:9999999;bottom: 0;width: auto;right: 1%;cursor: pointer;line-height: 0;display:block !important;">
+<script>function getCookie(t){for(var e=t+"=",n=decodeURIComponent(document.cookie).split(";"),o=0;o<n.length;o++){for(var i=n[o];" "==i.charAt(0);)i=i.substring(1);if(0==i.indexOf(e))return i.substring(e.length,i.length)}return""}getCookie("hostinger")&&(document.cookie="hostinger=;expires=Thu, 01 Jan 1970 00:00:01 GMT;",location.reload());var wordpressAdminBody=document.getElementsByClassName("wp-admin")[0],notification=document.getElementsByClassName("notice notice-success is-dismissible"),hostingerLogo=document.getElementsByClassName("hlogo"),mainContent=document.getElementsByClassName("notice_content")[0];if(null!=wordpressAdminBody&&notification.length>0&&null!=mainContent){var googleFont=document.createElement("link");googleFontHref=document.createAttribute("href"),googleFontRel=document.createAttribute("rel"),googleFontHref.value="https://fonts.googleapis.com/css?family=Roboto:300,400,600,700",googleFontRel.value="stylesheet",googleFont.setAttributeNode(googleFontHref),googleFont.setAttributeNode(googleFontRel);var css="@media only screen and (max-width: 576px) {#main_content {max-width: 320px !important;} #main_content h1 {font-size: 30px !important;} #main_content h2 {font-size: 40px !important; margin: 20px 0 !important;} #main_content p {font-size: 14px !important;} #main_content .content-wrapper {text-align: center !important;}} @media only screen and (max-width: 781px) {#main_content {margin: auto; justify-content: center; max-width: 445px;}} @media only screen and (max-width: 1325px) {.web-hosting-90-off-image-wrapper {position: absolute; max-width: 95% !important;} .notice_content {justify-content: center;} .web-hosting-90-off-image {opacity: 0.3;}} @media only screen and (min-width: 769px) {.notice_content {justify-content: space-between;} #main_content {margin-left: 5%; max-width: 445px;} .web-hosting-90-off-image-wrapper {position: absolute; display: flex; justify-content: center; width: 100%; }} .web-hosting-90-off-image {max-width: 90%;} .content-wrapper {min-height: 454px; display: flex; flex-direction: column; justify-content: center; z-index: 5} .notice_content {display: flex; align-items: center;} * {-webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;} .upgrade_button_red_sale{box-shadow: 0 2px 4px 0 rgba(255, 69, 70, 0.2); max-width: 350px; border: 0; border-radius: 3px; background-color: #ff4546 !important; padding: 15px 55px !important; font-family: 'Roboto', sans-serif; font-size: 16px; font-weight: 600; color: #ffffff;} .upgrade_button_red_sale:hover{color: #ffffff !important; background: #d10303 !important;}",style=document.createElement("style"),sheet=window.document.styleSheets[0];style.styleSheet?style.styleSheet.cssText=css:style.appendChild(document.createTextNode(css)),document.getElementsByTagName("head")[0].appendChild(style),document.getElementsByTagName("head")[0].appendChild(googleFont);var button=document.getElementsByClassName("upgrade_button_red")[0],link=button.parentElement;link.setAttribute("href","https://www.hostinger.com/hosting-starter-offer?utm_source=000webhost&utm_medium=panel&utm_campaign=000-wp"),link.innerHTML='<button class="upgrade_button_red_sale">Go for it</button>',(notification=notification[0]).setAttribute("style","padding-bottom: 0; padding-top: 5px; background-color: #040713; background-size: cover; background-repeat: no-repeat; color: #ffffff; border-left-color: #040713;"),notification.className="notice notice-error is-dismissible";var mainContentHolder=document.getElementById("main_content");mainContentHolder.setAttribute("style","padding: 0;"),hostingerLogo[0].remove();var h1Tag=notification.getElementsByTagName("H1")[0];h1Tag.className="000-h1",h1Tag.innerHTML="Black Friday Prices",h1Tag.setAttribute("style",'color: white; font-family: "Roboto", sans-serif; font-size: 22px; font-weight: 700; text-transform: uppercase;');var h2Tag=document.createElement("H2");h2Tag.innerHTML="Get 90% Off!",h2Tag.setAttribute("style",'color: white; margin: 10px 0 15px 0; font-family: "Roboto", sans-serif; font-size: 60px; font-weight: 700; line-height: 1;'),h1Tag.parentNode.insertBefore(h2Tag,h1Tag.nextSibling);var paragraph=notification.getElementsByTagName("p")[0];paragraph.innerHTML="Get Web Hosting for $0.99/month + SSL Certificate for FREE!",paragraph.setAttribute("style",'font-family: "Roboto", sans-serif; font-size: 16px; font-weight: 700; margin-bottom: 15px;');var list=notification.getElementsByTagName("UL")[0];list.remove();var org_html=mainContent.innerHTML,new_html='<div class="content-wrapper">'+mainContent.innerHTML+'</div><div class="web-hosting-90-off-image-wrapper"><img class="web-hosting-90-off-image" src="https://cdn.000webhost.com/000webhost/promotions/bf-2020-wp-inject-img.png"></div>';mainContent.innerHTML=new_html;var saleImage=mainContent.getElementsByClassName("web-hosting-90-off-image")[0]}</script></body>
+</html>

@@ -1,0 +1,177 @@
+body{
+	background:url(bgimage.jpg);
+	background-size: cover;
+}
+.form{
+	margin: 10%;
+	margin-top: 0;
+
+}
+.btn1 a{
+	display: grid;
+	text-decoration: none;
+	padding: 40px;
+	letter-spacing: 5px;
+	font-weight: 500px;
+	background: #9365ff;
+	color: #2c3e50;
+	font-family: "Arial Black", sans-serif;
+}
+a:hover{
+	color: #e74c3c;
+	transition: 0.9s;
+}
+
+#enrollment .form{
+	border: 5px inset;
+	border-color: #0000ff #414191 #3d0000 #00f5f1;
+	background: linear-gradient(rgba(0,0,255, 0.2), rgba(255,255,255,255)), url('bg.png');
+	background-blend-mode: ;
+	background-size: cover;
+}
+#enrollment .form h1{
+	font-family: Old English Text MT;
+}
+#enrollment .form h2{
+	font-family: Bauhaus 93;
+}
+#enrollment .form .line{
+	border-bottom: solid #2b05ff 5px;
+	border-radius: 30px;
+}
+#enrollment .form .head h4{
+	margin-left: 130px;
+	font-style: italic;
+}
+#enrollment .form .head{
+	text-align: center;
+	margin-left: 10px;
+	margin-right: 10px;
+	line-height: .8;
+}
+#enrollment .form .head img{
+	width: 140px;  
+	height: 140px;     
+    float: left; 
+    transition: transform .8s ease-in-out;
+    margin-left: 20px;
+}
+#enrollment .form .head img:Hover{
+-webkit-transform: scale(1.3) rotate(360deg);
+}
+.body{
+	margin-left: 20px;
+}
+.body h2{
+	text-align: center;
+	margin-bottom: 40px;
+	text-decoration: underline;
+}
+.body h3{
+	text-decoration: underline;
+}
+.body .ay{
+	width: 40px;
+}
+.body .name{
+	margin-left: 100px;
+}
+.body .gender{
+	margin-left: 83px;
+}
+.body .birthday{
+	margin-left: 300px;
+}
+.body .age{
+	margin-left: 60px;
+}
+.body .age .aged{
+	width: 40px;
+}
+.body .birthplace{
+	margin-left: 50px;
+	width: 550px;
+}
+.body .status{
+	margin-left: 50px;
+}
+.body .address{
+	margin-left: 76px;
+	width: 550px;
+}
+.body .course{
+	margin-left: 86px;
+}
+.body .major{
+	margin-left: 250px;
+}
+.body .citizen{
+	margin-left: 53px;
+}
+.body .religion{
+	margin-left: 350px;
+}
+.body .father{
+	margin-left: 90px;
+	width: 250px;
+}
+.body .occupation{
+	margin-left: 200px;
+}
+.body .mother{
+	margin-left: 85px;
+	width: 250px;
+}
+.body .contact{
+	margin-left: 46px;
+}
+.body .guardian{
+	margin-left: 68px;
+	width: 250px;
+}
+.body .relationship{
+	margin-left: 200px;
+}
+.body .occupation1{
+	margin-left: 300px;
+}
+.body .add{
+	margin-left: 80px;
+	width: 550px;
+}
+.body .primary{
+	margin-left: 83px;
+	width: 550px;
+}
+.body .year1{
+	margin-left: 20px;
+}
+.body .secondary{
+	margin-left: 60px;
+	width: 550px;
+}
+.body .year2{
+	margin-left: 20px;
+}
+.body .recent{
+	margin-left: 28px;
+	width: 550px;
+}
+.body .year3{
+	margin-left: 15px;
+}
+.body .add1{
+	margin-left: 80px;
+	width: 550px;
+}
+
+.body .last h3{
+	text-align: left;
+}
+.body .last {
+	text-align: center;
+	padding-bottom: 40px;
+}
+.body .last p{
+	font-style: italic;
+}

@@ -1,0 +1,50 @@
+body{
+	background: url(bgimage.PNG);
+}
+#border{
+	border: 5px #039900 solid;
+	background: #ffffff;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+#border .set1{
+	border: 5px #e60b00 solid;
+	text-align: right;
+}
+#border .set2{
+	border: 5px #001eb5 solid;
+}
+#border .set3{
+	border: 5px #001eb5 solid;
+}
+#border span{
+	border: 5px #9a02cc solid;
+}
+#border .set1 h2{
+	border: 5px #ffbf00 solid;
+}
+-------------------------------
+#border, .set2, .set3{
+	background: #E8FBFB;
+	padding: 5px;
+	margin-top: 10px;
+	padding-bottom: 80px;
+}
+-------------------------------
+#border .set2 .set3, img{
+	float: right;
+}
+.btn a{
+	display: grid;
+	text-decoration: none;
+	padding: 40px;
+	letter-spacing: 5px;
+	font-weight: 500px;
+	background: #9365ff;
+	color: #2c3e50;
+	font-family: "Arial Black", sans-serif;
+}
+a:hover{
+	color: #e74c3c;
+	transition: 0.9s;
+}
